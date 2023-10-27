@@ -9,10 +9,10 @@
 </head>
 <body>
     <main>
-        <div id="app">
-            <h1 class="text-center my-5">{{message}}</h1>
+        <div id="app" class="container">
+            <h1 class="text-center my-5" :class="isPink ? 'pink' : 'blue'" @click = 'changeColor'>{{message}}</h1>
             <div class="d-flex justify-content-center">
-                <img :src="picture" alt="Yay!">
+                <img :src="picture" alt="Yay!" class="w-100">
             </div>
         </div>
     </main>

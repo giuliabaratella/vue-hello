@@ -1,0 +1,13 @@
+:root{
+    --color-primary: #f6b7d0;
+    --color-secondary: #1abeff;
+}
+.pink {
+    color: var(--color-primary);
+}
+.blue {
+    color: var(--color-secondary);
+}
+main h1 {
+    cursor: pointer;
+}
